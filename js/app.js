@@ -67,7 +67,7 @@ back|العودة للرئيسية|Back to home
 slide|عرض|Slide
 prev|السابق|Previous
 next|التالي|Next
-about_txt|روابط هي شركة برمجيات متكاملة مصرية تأسست عام 2017، تقدم حلول تقنية مبتكرة لتطوير البرمجيات، تصميم المواقع والتطبيقات، وخدمات التحول الرقمي.|Rwabett is an integrated Egyptian software company founded in 2017, offering innovative technology solutions for software development, website and app design, and digital transformation services.
+about_txt|«My Menu» - صفحة تعريفية لمطعم تعرض قائمة الطعام والمنتجات، تم بناؤها باستخدام HTML وCSS وJavaScript وBootstrap.|My Menu - a restaurant landing page showcasing its menu and products, built with HTML, CSS, JavaScript, and Bootstrap.
 quick|روابط سريعة|Quick Links
 orders|الطلبات|Orders
 contact|اتصل بنا|Contact Us
