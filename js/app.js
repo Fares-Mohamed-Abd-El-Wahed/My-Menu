@@ -42,7 +42,7 @@ meals|الوجبات|Meals
 sandwiches|السندوتشات|Sandwiches
 juices|العصائر|Juices
 addons|الإضافات|Add-ons
-h1|روابط – اطلب وجباتك المفضلة|Rwabett – order your favorite meals
+h1|<My Menu> – اطلب وجباتك المفضلة|My Menu – order your favorite meals
 desc|اطلب وجباتك وساندوتشاتك وعصائرك المفضلة من أقرب فرع.|Order your favorite meals, sandwiches and juices from the nearest branch.
 b_best|الأكثر طلباً|Most Ordered
 b_new|جديد|New
@@ -181,7 +181,7 @@ function route(keepScroll){
  else if(v==='favorites'){html=favView();title='favs'}
  else{const s=v==='page'?k:v;html=soon(s);title=s}
  $('app').innerHTML=html;
- document.title=t(title)+' | Rwabett';
+ document.title=t(title)+' | My Menu';
  document.querySelectorAll('[data-route]').forEach(a=>{const on=a.dataset.route===v;a.classList.toggle('active-nav',on);a.classList.toggle('navitemhover',!on);a.classList.toggle('text-sec',!on)});
  if(B)document.querySelectorAll('#app .carousel').forEach(e=>new B.Carousel(e));
  const s=$('srch');if(s)s.addEventListener('input',()=>{q=s.value;$('items').innerHTML=items(cur.k)});
