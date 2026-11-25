@@ -1,6 +1,6 @@
 (function(){
 'use strict';
-/* ================= Translations: key|arabic|english ================= */
+/* ================= Translations ================= */
 const T={};
 `home|الرئيسية|Home
 branches|الفروع|Branches
@@ -85,7 +85,7 @@ payment|الدفع|Payment
 returns|الاسترجاع|Returns
 rights|جميع الحقوق محفوظة|All rights reserved`.split('\n').forEach(r=>{const [k,a,e]=r.split('|');T[k]=[a,e]});
 
-/* ================= Sample data (replace with your API) ================= */
+/* ================= Sample data ================= */
 const IMG='img/png-clipart-chicken-as-food-recipe-eating-dieting-health-health-food-plate.png';
 const CITIES=[['القاهرة','Cairo'],['الجيزة','Giza'],['الإسكندرية','Alexandria'],['المنصورة','Mansoura']];
 const CATS=['offers','meals','sandwiches','juices','addons'];
@@ -244,7 +244,6 @@ const nc=$('navbarScroll');
 nc.addEventListener('show.bs.collapse',()=>$('tgIcon').classList.add('change'));
 nc.addEventListener('hide.bs.collapse',()=>$('tgIcon').classList.remove('change'));
 
-/* ---- auth (front-end only: connect to your backend in the submit handler) ---- */
 $('authBtn').addEventListener('click',()=>{
  if(user){user=null;S.set('user',null);try{sessionStorage.removeItem('rw-user')}catch(e){}tr()}
  else if(B)B.Modal.getOrCreateInstance($('authModal')).show();
